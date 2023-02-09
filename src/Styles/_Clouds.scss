@@ -1,0 +1,155 @@
+
+.cloud{
+    position: absolute;
+    left: 0;
+    background-color: white;
+    border-radius: 1000px;
+    animation: zoomies 10s infinite linear;
+}
+
+.one{
+    top: 80%;
+    width: 160px;
+    height: 45px;
+    animation-duration: 30s;
+}
+
+.two{
+    top: 30%;
+    width: 100px;
+    height: 30px;
+    animation-duration: 35s;
+}
+
+.three{
+    top:60%;
+    width: 80px;
+    height: 25px;
+    animation-duration: 40s;
+}
+
+.four{
+    top: 15%;
+    width: 100px;
+    height: 30px;
+    animation-duration: 20s;
+}
+
+.five{
+    top: 45%;
+    width:80px;
+    height: 25px;
+    animation-duration: 45s;
+}
+
+.six{
+    top: 43%;
+    width:70px;
+    height: 20px;
+    animation-duration: 15s;
+}
+
+.seven{
+    top: 80%;
+    width:70px;
+    height: 20px;
+    animation-duration: 20s;
+}
+.eight{
+    top: 13%;
+    width:70px;
+    height: 20px;
+    animation-duration: 29s;
+}
+.nine{
+    top: 90%;
+    width:70px;
+    height: 20px;
+    animation-duration: 15s;
+}
+.ten{
+    top: 50%;
+    width:100px;
+    height: 30px;
+    animation-duration: 22s;
+}
+
+.cloud::before{
+    content: '';
+    position: absolute;
+    top:-80%;
+    left: 10%;
+    width: 50%;
+    height: 150%;
+    background: white;
+    border-radius: 50%;
+}
+
+.cloud::after{
+    content: '';
+    position: absolute;
+    top:-40%;
+    right: 20%;
+    width: 30%;
+    height: 100%;
+    background: white;
+    border-radius: 50%;
+}
+
+
+.underline--magical {
+    background-image: linear-gradient(120deg, #EBA487 0%, #EDBC64 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+    &:hover {
+      background-size: 100% 88%;
+    }
+  }
+
+@keyframes zoomies{
+    from{
+        left: 0%;
+        transform: translateX(-100%);
+    }
+    to{
+        left: 100%;
+        transform: translateX(0%);
+       
+    }
+}
+
+::-webkit-scrollbar-track
+{
+	z-index: -1000;
+	border-radius: 10px;
+	background: linear-gradient(to bottom, skyblue, cornflowerblue);;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: skyblue;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+	background-color: cornflowerblue;
+}
+
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+}
+
+@keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+

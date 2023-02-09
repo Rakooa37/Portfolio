@@ -1,0 +1,117 @@
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    padding-top: 8rem;
+
+    .about-me__title{
+        font-size:calc(1.2rem + 2vw);
+    }
+
+    .about-me__content{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 56%;
+        padding-top: 2rem;
+        
+        .about-me__image img{
+            height: 20rem;
+            width: 15rem; 
+            object-fit:contain;
+            border-radius: 15%;
+            padding-top: 0.5rem;
+        }
+
+        .about-me__description{
+            padding-left: 2rem;
+            font-size: 1.1rem;
+            line-height: 2.5rem;
+            width: 60%;
+        }
+    }  
+
+    .about-me__resume{
+        font-size: 1.5rem;
+        padding-top: 2rem;
+        max-width: 21rem;
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: none;
+    }
+}
+
+.typewriter {
+    position: relative;
+    color: black;
+    font-family: 'Merriweather Sans', sans-serif;
+    letter-spacing: 7px;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 6s steps(17) 1s 1 both, blinkTextCursor 600ms infinite;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width:1500px) {
+    .about-me{
+        .about-me__content{
+            width: 90%;
+
+            .about-me__image{
+                padding-bottom: 2rem;
+            }
+    
+            .about-me__description{
+                width: 70%;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1050px){
+    .about-me{
+        padding-top: 3rem;
+        
+        .about-me__content{
+            .about-me__description{
+                width:90%
+            }
+        }
+
+        .about-me__resume{
+            padding-bottom: 3rem;
+        }
+        
+    }
+}
+  
+@keyframes typewriter {
+    0% {
+      width: 0;
+    }
+    20% {
+      width: 23rem;
+    }
+    100%{
+        width: 23rem;
+    }
+  }
+@keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+}

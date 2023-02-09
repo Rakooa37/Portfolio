@@ -1,0 +1,56 @@
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 4rem 3rem;
+    width: 100%;
+    gap:3rem;
+    
+    font-size: 1.25rem;
+
+   >*:hover{
+    
+    -webkit-box-shadow: 4px 8px 19px 4px rgba(0,0,0,0.31); 
+    box-shadow: 4px 8px 19px 4px rgba(0,0,0,0.31);;
+    transform: translate3d(5px, -5px, -5px) scale(1.01);
+   }
+
+   .skills__web-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+   }
+
+   .skills__other-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+   }
+}
+
+
+
+.card{
+    border-radius: 25px;
+    padding: 1rem 3rem;
+    list-style-type: circle;
+    line-height: 2.5rem;
+    transition: 0.35s ease-out;
+    cursor: pointer;
+
+
+    ::marker{
+        color:white;
+        content: '';
+        transition: 0.15s ease-out;
+    }
+
+    .icon{
+        transition: 0.35s ease-out;
+    }
+
+    .icon:hover{
+        color: white;
+    }
+    
+
+    
+}
