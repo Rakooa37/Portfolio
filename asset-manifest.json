@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.60f63f79.css",
-    "main.js": "/Portfolio/static/js/main.8af3a019.js",
+    "main.css": "/Portfolio/static/css/main.abf7fa93.css",
+    "main.js": "/Portfolio/static/js/main.84ebc04d.js",
     "static/media/pic.jpg": "/Portfolio/static/media/pic.ef77f2acbe22220e8414.jpg",
     "static/media/ShoppingCart.jpg": "/Portfolio/static/media/ShoppingCart.89704c127e121c5ce9bc.jpg",
     "static/media/CvCreator.jpg": "/Portfolio/static/media/CvCreator.5a349c8103b180d5feb0.jpg",
@@ -9,11 +9,11 @@
     "static/media/Vasile Radu - Front-End Dev.pdf": "/Portfolio/static/media/Vasile Radu - Front-End Dev.f3a6d5a40de964423625.pdf",
     "static/media/CryptoWatcher.jpg": "/Portfolio/static/media/CryptoWatcher.cb780c55fe1e31ad8d8e.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.60f63f79.css.map": "/Portfolio/static/css/main.60f63f79.css.map",
-    "main.8af3a019.js.map": "/Portfolio/static/js/main.8af3a019.js.map"
+    "main.abf7fa93.css.map": "/Portfolio/static/css/main.abf7fa93.css.map",
+    "main.84ebc04d.js.map": "/Portfolio/static/js/main.84ebc04d.js.map"
   },
   "entrypoints": [
-    "static/css/main.60f63f79.css",
-    "static/js/main.8af3a019.js"
+    "static/css/main.abf7fa93.css",
+    "static/js/main.84ebc04d.js"
   ]
 }
